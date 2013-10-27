@@ -1,13 +1,83 @@
 h1 {
 	font-family:"Verdana", serif;
 	font-size:6.5em;
+	margin:0;
 }
 
-div
+h2 {
+	font-family:"Verdana", serif;
+	font-size:2.8em;
+	margin:0;
+}
+
+.main-places
 {
 	border:2px solid #a1a1a1;
-	padding:10px 40px; 
 	background:#dddddd;
 	width:450px;
-	border-radius:25px;
+	border-radius: 3px;
+}
+
+.main-malaysia
+{
+	border:2px solid #a1a1a1;
+	background:#dddddd;
+	width:268px;
+	border-radius: 3px;
+}
+
+.main-china
+{
+	border:2px solid #a1a1a1;
+	background:#dddddd;
+	width:170px;
+	border-radius: 3px;
+}
+
+.main-korea
+{
+	border:2px solid #a1a1a1;
+	background:#dddddd;
+	width:175px;
+	border-radius: 3px;
+}
+
+.main-japan
+{
+	border:2px solid #a1a1a1;
+	background:#dddddd;
+	width:165px;
+	border-radius: 3px;
+}
+
+.main-india
+{
+	border:2px solid #a1a1a1;
+	background:#dddddd;
+	width:161px;
+	border-radius: 3px;
+}
+
+.main-thailand
+{
+	border:2px solid #a1a1a1;
+	background:#dddddd;
+	width:268px;
+	border-radius: 3px;
+}
+
+.main-indonesia
+{
+	border:2px solid #a1a1a1;
+	background:#dddddd;
+	width:300px;
+	border-radius: 3px;
+}
+
+.main-singapore
+{
+	border:2px solid #a1a1a1;
+	background:#dddddd;
+	width:303px;
+	border-radius: 3px;
 }
