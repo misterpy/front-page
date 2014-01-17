@@ -1,83 +1,289 @@
 h1 {
 	font-family:"Verdana", serif;
-	font-size:6.5em;
+	font-size:5em;
 	margin:0;
 }
 
 h2 {
 	font-family:"Verdana", serif;
-	font-size:2.8em;
+	font-size:2em;
 	margin:0;
 }
 
-.main-places
-{
-	border:2px solid #a1a1a1;
-	background:#dddddd;
-	width:450px;
-	border-radius: 3px;
+div{
+	position: absolute;
+	text-align: center;
+	border:0;
+	background: white;
+	visibility: hidden;
+	opacity: 1;
 }
 
-.main-malaysia
-{
-	border:2px solid #a1a1a1;
-	background:#dddddd;
-	width:268px;
-	border-radius: 3px;
+.main-places{	
+	width:350px;
+	visibility: visible;
 }
 
-.main-china
-{
-	border:2px solid #a1a1a1;
-	background:#dddddd;
-	width:170px;
-	border-radius: 3px;
+.main-malaysia{
+	width:200px;
+	visibility: visible;
+	animation: malaysia-animate 1.5s;
+	-ms-animation: malaysia-animate 1.5s;
+	-moz-animation: malaysia-animate 1.5s;
+	-webkit-animation: malaysia-animate 1.5s;
+	animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-webkite-animation-delay: 1s;
 }
 
-.main-korea
-{
-	border:2px solid #a1a1a1;
-	background:#dddddd;
-	width:175px;
-	border-radius: 3px;
+@keyframes malaysia-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
 }
 
-.main-japan
-{
-	border:2px solid #a1a1a1;
-	background:#dddddd;
-	width:165px;
-	border-radius: 3px;
+@-ms-keyframes malaysia-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
 }
 
-.main-india
-{
-	border:2px solid #a1a1a1;
-	background:#dddddd;
-	width:161px;
-	border-radius: 3px;
+@-moz-keyframes malaysia-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
 }
 
-.main-thailand
-{
-	border:2px solid #a1a1a1;
-	background:#dddddd;
-	width:268px;
-	border-radius: 3px;
+@-webkit-keyframes malaysia-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
 }
 
-.main-indonesia
-{
-	border:2px solid #a1a1a1;
-	background:#dddddd;
-	width:300px;
-	border-radius: 3px;
+.main-china{
+	width:130px;
+	visibility: visible;
+	animation: china-animate 2.5s;
+	-ms-animation: china-animate 2.5s;
+	-moz-animation: china-animate 2.5s;
+	-webkit-animation: china-animate 2.5s;
+	animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-webkite-animation-delay: 1s;
 }
 
-.main-singapore
-{
-	border:2px solid #a1a1a1;
-	background:#dddddd;
-	width:303px;
-	border-radius: 3px;
+@keyframes china-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-ms-keyframes china-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-moz-keyframes china-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-webkit-keyframes china-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+.main-korea{
+	width:135px;
+	visibility: visible;
+	animation: korea-animate 3s;
+	-ms-animation: korea-animate 3s;
+	-moz-animation: korea-animate 3s;
+	-webkit-animation: korea-animate 3s;
+	animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-webkite-animation-delay: 1s;
+}
+
+@keyframes korea-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-ms-keyframes korea-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-moz-keyframes korea-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-webkit-keyframes korea-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+.main-japan{
+	width:130px;
+	visibility: visible;
+	animation: japan-animate 2.25s;
+	-ms-animation: japan-animate 2.25s;
+	-moz-animation: japan-animate 2.25s;
+	-webkit-animation: japan-animate 2.25s;
+	animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-webkite-animation-delay: 1s;
+}
+
+@keyframes japan-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-ms-keyframes japan-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-moz-keyframes japan-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-webkit-keyframes japan-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+.main-india{
+	width:125px;
+	visibility: visible;
+	animation: india-animate 1.5s;
+	-ms-animation: india-animate 1.5s;
+	-moz-animation: india-animate 1.5s;
+	-webkit-animation: india-animate 1.5s;
+	animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-webkite-animation-delay: 1s;
+}
+
+@keyframes india-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-ms-keyframes india-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-moz-keyframes india-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-webkit-keyframes india-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+.main-thailand{
+	width:200px;
+	visibility: visible;
+	animation: thailand-animate 1.875s;
+	-ms-animation: thailand-animate 1.875s;
+	-moz-animation: thailand-animate 1.875s;
+	-webkit-animation: thailand-animate 1.875s;
+	animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-webkite-animation-delay: 1s;
+}
+
+@keyframes thailand-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-ms-keyframes thailand-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-moz-keyframes thailand-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-webkit-keyframes thailand-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+.main-indonesia{
+	width:220px;
+	visibility: visible;
+	animation: indonesia-animate 2.625s;
+	-ms-animation: indonesia-animate 2.625s;
+	-moz-animation: indonesia-animate 2.625s;
+	-webkit-animation: indonesia-animate 2.625s;
+	animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-webkite-animation-delay: 1s;
+}
+
+@keyframes indonesia-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-ms-keyframes indonesia-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-moz-keyframes indonesia-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-webkit-keyframes indonesia-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+.main-singapore{
+	width:225px;
+	visibility: visible;
+	animation: singapore-animate 1s;
+	-ms-animation: singapore-animate 1s;
+	-moz-animation: singapore-animate 1s;
+	-webkit-animation: singapore-animate 1s;
+	animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-webkite-animation-delay: 1s;
+}
+
+@keyframes singapore-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-ms-keyframes singapore-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-moz-keyframes singapore-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-webkit-keyframes singapore-animate{
+	from {opacity: 0;}
+	to {opacity: 1;}
 }
